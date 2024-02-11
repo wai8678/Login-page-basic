@@ -1,0 +1,78 @@
+*{
+     margin: 0;
+    padding: 0;
+}
+body{
+    background: url(sunset.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    
+    
+
+}
+.container{
+    
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 25%;
+    left:40%;
+    border: 2px;
+
+}
+.container h1{
+    font-family: 'Heebo',sans-serif;
+    width: 50%;
+    color: rgb(247, 226, 2);
+    display: inline;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding: 13px 0 ;
+   
+}
+.box{
+    
+    width: 100px;
+    
+    margin: 23px 0px;
+  
+}
+.box input{
+    background: none;
+    color: black;
+
+    padding: 10px 10px;
+    font-size: 20px;
+
+    color:black;
+}
+.box input:hover{
+
+  color:rgb(243, 160, 6) ;
+}
+
+.btn:hover{
+    opacity: 0.5;
+    background: white;
+    color: rgb(255, 145, 20);
+    
+}
+.btn{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.box i{
+   
+    width:25px ;
+    text-align: center;
+    color: black;
+
+
+}
